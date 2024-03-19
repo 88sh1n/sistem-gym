@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Discount Calculator</title>
+</head>
+<body>
+    <div id="container"></div>
+    <h2>Discount Calculator</h2>
+
+    <div class="bill-a">
+        <label for="bill-a">Enter bill amount :</label>
+        <input type="number" placeholder="Bill amount" id="billInput"></input>
+    </div>
+
+    <div class="disc-a">
+        <label for="disc-a">Select discount %</label>
+        <select id="discOpt">
+            <option>5%</option>
+            <option>10%</option>
+            <option>15%</option>
+            <option>20%</option>
+        </select>
+    </div>
+
+    <div class="disc-b">
+        <label for="totalDisc">Discount Amount :</label>
+        <input type="text" id="totalDisc" readonly>
+    </div>
+
+    <div class="disc-c">
+        <label for="finalPay">Final Pay :</label>
+        <input type="text" id="finalPay" readonly>
+    </div>
+
+    <div class="buttons">
+        <button id="calc">Calculate</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script src="script1.js"></script>
+    
+</body>
+</html>
