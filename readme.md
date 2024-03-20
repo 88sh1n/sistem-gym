@@ -11,7 +11,7 @@
 
 - 👯 I’m looking to collaborate on **SpaceX**
 
-- 🤝 I’m looking for help with **ISS**
+- 🤝 I’m looking for help with **NASA**
 
 - 💬 Ask me about **IT Security Specialist**
 
